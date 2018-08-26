@@ -3,7 +3,7 @@ import carHandler.Car;
 import carHandler.FamilyCar;
 import carHandler.Garage;
 
-public class App 
+public class ConsoleApp 
 {
 
 	
@@ -15,10 +15,10 @@ public class App
 		
 		garage.addCar(test1);
 		garage.addCar(test2);		
-		garage.printGarage();
+//		garage.printGarage();
 		garage.removeCar(test2);
 		garage.removeCar(test2);
-		garage.printGarage();
+//		garage.printGarage();
 	}
 
 }

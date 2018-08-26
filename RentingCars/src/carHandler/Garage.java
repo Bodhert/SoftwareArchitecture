@@ -30,11 +30,8 @@ public class Garage
 		garage.remove(car);
 	}
 	
-	public void printGarage()
+	public  int garageSize()
 	{
-		for(int i = 0; i < garage.size(); ++i)
-		{
-			System.out.println("carro" + i + ":" + garage.get(i).getPlaca());
-		}
+		return garage.size();
 	}
 }
