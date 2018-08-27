@@ -30,6 +30,25 @@ public class Garage
 		garage.remove(car);
 	}
 	
+	public void printCarsSpecs()
+	{
+		int index= 0;
+		for(Car temp : garage)
+		{
+			System.out.println("item #: " + index++);
+			System.out.println("Modelo: "+  temp.getMarca());
+			System.out.println("cilindraje: " +  temp.getCilindraje());
+			System.out.println("Puestos: " +  temp.getNroDePuestos());
+			System.out.println("Precio por hora: " +  temp.getValorHora());
+			
+		}
+	}
+	
+	public Car getCar(int index)
+	{
+		return garage.get(index);
+	}
+	
 	public  int garageSize()
 	{
 		return garage.size();

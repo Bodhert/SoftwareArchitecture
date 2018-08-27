@@ -1,12 +1,31 @@
 package transactionHelper;
 
-public class RentarTransaccion {
+import java.util.Calendar;
+import java.util.Date;
+
+import carHandler.Car;
+
+public class RentarTransaccion
+{
 	String id;
+	Date OutDate;
+	Date inDate;
+	Car car;
+	Cliente client;
+	double total;
 	
 	
-	public RentarTransaccion() 
+	public RentarTransaccion(String id, Date outDate, Date inDate,
+							Car car, Cliente client, double total) 
 	{
-		// TODO Auto-generated constructor stub
+		this.id = id;
+		this.OutDate = outDate;
+		this.inDate = inDate;
+		this.car = car;
+		this.client = client;
+		this.total = total;
 	}
+	
+	
 
 }

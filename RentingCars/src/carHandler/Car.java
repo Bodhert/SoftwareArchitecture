@@ -15,6 +15,8 @@ public abstract class Car
 		this.NroDePuestos = NroDePuestos;
 	}
 	
+	abstract public int getValorHora();
+	
 	public String getPlaca() 
 	{
 		return placa;

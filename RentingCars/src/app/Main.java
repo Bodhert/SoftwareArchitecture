@@ -20,16 +20,14 @@ public class Main {
 		}
 		if (!alreadyRuning) 
 		{
-			System.out.println("jejejej no corre xd");
 			app.businnesLogic();
 			System.out.println("Programa Terminado");
 		}
 		else
 		{
-			System.out.println("ya corre :(");
+			System.out.println("ya esta corriendo el programa ");
 		}
 		
-//		for(;;); for testing
 
 	}
 

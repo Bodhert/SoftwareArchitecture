@@ -1,6 +1,7 @@
 package transactionHelper;
 
-public class Cliente {
+public class Cliente 
+{
 
 	private String id, nombre;
 	private boolean isVip;
